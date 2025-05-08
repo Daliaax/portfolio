@@ -108,3 +108,14 @@ img {
         height: 100px;
     }
 }
+.highlight {
+    background-color: #e0f7fa;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#kontakt {
+    border: 2px solid #00bcd4;
+    margin-top: 20px;
+}
+
