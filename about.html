@@ -17,14 +17,22 @@
     </header>
 
     <main>
-        <section>
+        <section class="box">
             <h1>Om mig</h1>
+            <h2>Vem är jag?</h2>
+            <h3>Webbutvecklare & Student</h3>
             <p>Jag är en passionerad webbutvecklare med fokus på design och användarupplevelse.</p>
-            <form action="mailto:example@example.com" method="post" enctype="text/plain">
+        </section>
+
+        <section class="box">
+            <h2>Kontaktformulär</h2>
+            <form id="kontaktformulär" action="mailto:example@example.com" method="post" enctype="text/plain">
                 <label for="name">Ditt namn:</label>
                 <input type="text" id="name" name="name" required>
+
                 <label for="message">Ditt meddelande:</label>
                 <textarea id="message" name="message" required></textarea>
+
                 <button type="submit">Skicka</button>
             </form>
         </section>
@@ -35,3 +43,4 @@
     </footer>
 </body>
 </html>
+
