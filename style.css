@@ -1,14 +1,25 @@
-/* Styling för kontaktformuläret på about.html */
+/* Moderniserad styling för kontaktformuläret */
 #kontaktformulär {
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-radius: 8px;
-    max-width: 500px;
-    margin: 20px auto;
+    background-color: #fafafa;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 40px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+#kontaktformulär h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #222;
 }
 
 #kontaktformulär label {
-    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
     color: #333;
 }
 
@@ -16,22 +27,34 @@
 #kontaktformulär textarea {
     background-color: #fff;
     border: 1px solid #ccc;
-    padding: 12px;
-    border-radius: 5px;
+    padding: 14px;
+    border-radius: 6px;
     width: 100%;
-    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+#kontaktformulär input:focus,
+#kontaktformulär textarea:focus {
+    outline: none;
+    border-color: #555;
 }
 
 #kontaktformulär button {
     background-color: #333;
-    color: white;
-    padding: 10px 20px;
+    color: #fff;
+    padding: 12px 25px;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
+    font-size: 16px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
 }
 
 #kontaktformulär button:hover {
-    background-color: #555;
+    background-color: #000;
 }
 
